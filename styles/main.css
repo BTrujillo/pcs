@@ -1,9 +1,44 @@
 .navbar-brand {
-	padding-top: 10px;
-	padding-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
-.navbar-default {
-	padding-bottom: 10px;
+.navbar-fixed-top {
+	height: 50px;
+}
+
+/*.navbar-default {
+	height: 50px;
+}*/
+
+.navbar-default li, .navbar-default .navbar-brand {
+/*	padding: 20px 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;*/
+}
+
+.navbar-default.active {
+	background-color: #FF7B84;
+}
+
+.jumbotron {
+	margin-top: 70px;
+/*	padding-top: 100px;
+*/}
+
+nav li.active {
+/*	margin-bottom: 10px;
+*/}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    background-color: #8F0D0D;
+}
+
+.btn-custom {
+    .button-variant(#2E7582, #2E7582, #2E7582);
 }
 
