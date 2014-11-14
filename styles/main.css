@@ -36,7 +36,7 @@ h1, h2, h3, p, .btn {
 	margin-top: 0px;
 }
 
-.jumbotron h1, .jumbotron h2, .jumbotron p {
+.jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron p {
 	color: #FFFFFF;
 }
 
@@ -284,6 +284,7 @@ fieldset[disabled] .btn-green.active {
 #map {
 	padding-right: 0px;
 	padding-left: 0px;
+	padding-bottom: 7%;
 }
 
 .no-padding-or-margin {
