@@ -1,14 +1,30 @@
+h1, h2, h3, p, .btn {
+	font-family: 'Lato', sans-serif;
+}
+
 .navbar-brand {
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	min-height: 85px;
 }
 
 .navbar-fixed-top {
-	height: 50px;
+	height: 85px;
+	padding-left: 0px;
+	padding-right: 20px;
+}
+
+.navbar-fixed-top li, .navbar-fixed-top input, .navbar-fixed-top button {
+	font-family: 'Lato', sans-serif;
+	margin-top: 19px;
+}
+
+.navbar-fixed-top li {
+	font-size: 12pt;
 }
 
 .jumbotron {
-	margin-top: 70px;
+	margin-top: 100px;
 	margin-bottom: 0px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -27,8 +43,9 @@
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #FFFFFF;
-    background-color: #700134;
+    color: #000000;
+    background-color: #F8F8F8;
+    border-bottom: solid 1px #700134;
 }
 
 #home_body {
@@ -43,7 +60,7 @@ html,
 body {
    margin:0;
    padding:0;
-   height:95%;
+   height:92%;
 }
 
 #wrapper {
