@@ -16,15 +16,5 @@
     "Gruntfile.js",
     "package.js",
     "package.json"
-  ],
-  "homepage": "https://github.com/moment/moment",
-  "_release": "2.8.4",
-  "_resolution": {
-    "type": "version",
-    "tag": "2.8.4",
-    "commit": "7ae59de2fc3a1298ae829f6369fe3589b2cd87f8"
-  },
-  "_source": "git://github.com/moment/moment.git",
-  "_target": ">=2.5.0",
-  "_originalSource": "moment"
+  ]
 }
