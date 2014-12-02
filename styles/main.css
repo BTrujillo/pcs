@@ -315,3 +315,9 @@ hr {
 #form {
 	padding-bottom: 60px;
 }
+
+#calendar {
+  padding-top: 50px;
+  width: 40%;
+
+}
