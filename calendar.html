@@ -8,7 +8,7 @@
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="styles/main.css" rel="stylesheet" media="screen">
-    <link href="bower_components/bootstrap-calendar/css/calendar.css" rel="stylesheet" media="screen">
+    <!--    <link href="bower_components/bootstrap-calendar/css/calendar.css" rel="stylesheet" media="screen">-->
     <link href="bower_components/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet" media="screen">
 
         <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -64,9 +64,12 @@
         <!-- </div> -->
         </nav>
 
-        <div id="calendar"></div>
+	<div id="calendar"></div>
 
-        <script type='text/javascript' src='bower_components/fullcalendar/dist/gcal.js'></script>
+	<script type='text/javascript' src='bower_components/jquery/jquery.min.js'></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type='text/javascript' src='bower_components/moment/moment.js'></script>
+	<script type='text/javascript' src='bower_components/fullcalendar/dist/gcal.js'></script>
         <script type='text/javascript' src='bower_components/fullcalendar/dist/fullcalendar.js'></script>
         <script type='text/javascript'>
 
@@ -77,29 +80,14 @@ $(document).ready(function() {
             googleCalendarId: 'projectcaringandsharing@gmail.com'
         }
     });
-});
+    });
+	</script>
 
-</script>
-<!-- 
-    <script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
-    <script type="text/javascript" src="bower_components/bootstrap-calendar/js/calendar.js"></script>
-    <script type="text/javascript">
-        var calendar = $("#calendar").calendar(
-            {
-                tmpl_path: "bower_components/bootstrap-calendar/tmpls/",
-                events_source: function () { return []; }
-            });         
-    </script>
-
-         -->
   <div id="footer">
   <footer class="footer">
     <p>Copyright &copy; 2014 Project: Caring and Sharing | All Rights Reserved.</p>
   </footer>
   </div>
   </div>
-  <script src="//code.jquery.com/jquery.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
