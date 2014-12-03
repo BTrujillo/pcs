@@ -324,3 +324,11 @@ body {
   padding-top: 105px;
   padding-bottom: 70px;
 }
+
+#form {
+	padding-bottom: 90px;
+}
+
+#apply {
+	margin-left: 0px;
+}
