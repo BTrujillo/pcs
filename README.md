@@ -17,4 +17,4 @@ Alternatively, you can download and unzip the files from the repository.
 * Get rid of stock images on Home page and stock video on About Us page
 * Decide if we want search/not, and if so, implement it
 * About Us page - video
-
+* Add in Donations
