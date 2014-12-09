@@ -7,5 +7,5 @@ To view the project live, simply navigate to the index.html page to see the land
 
 To get the files on your local machine, use the following command:
 
-> git clone https://github.com/<path-to-repository>
+> git clone https://github.com/path-to-repository
 
