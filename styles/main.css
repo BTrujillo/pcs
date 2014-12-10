@@ -316,11 +316,19 @@ hr {
 	padding-bottom: 60px;
 }
 
-#calendar-container {
-	
+body {
+	font-family: 'Lato', sans-serif;	
 }
 
 #calendar {
   padding-top: 105px;
   padding-bottom: 70px;
+}
+
+#form {
+	padding-bottom: 90px;
+}
+
+#apply {
+	margin-left: 0px;
 }
