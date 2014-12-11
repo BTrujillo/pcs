@@ -332,3 +332,22 @@ body {
 #apply {
 	margin-left: 0px;
 }
+
+#paypal {
+  padding-left:15px;
+  height: 45px;
+}
+
+.photobanner {
+  height: 245px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+#photobanner {
+  padding-top: 15px;
+  margin: 0px;
+  padding-left: 0px;
+  border: solid 1px #000000;
+}
