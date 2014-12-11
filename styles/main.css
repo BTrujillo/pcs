@@ -354,3 +354,7 @@ body {
 .module {
   padding-bottom: 15px;
 }
+
+#events {
+  padding-bottom: 60px;
+}
